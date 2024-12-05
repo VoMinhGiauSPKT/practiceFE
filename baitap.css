@@ -1,0 +1,140 @@
+/* điều chỉnh chung */
+
+body{
+    margin: 0;
+    background-color: rgb(233, 231, 231);
+    display: flex;
+}
+
+i{
+    color: white; 
+}
+
+span{
+    color: white;
+}
+
+
+/* điều chỉnh riêng */
+
+
+/* thanh điều hướng */
+#sidebar{
+    width: 222px;
+    height: 100vh;
+    background-color: #490057;
+    flex-direction: column;
+
+}
+
+#logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#logo-icon{
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+#logo-text{
+    font-size: 24px;
+}
+
+#menu{
+    display: flex;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#menu-icon{
+    font-size: 15px;
+    padding-right: 12px;
+}
+
+#menu:hover{
+    background-color: rgb(255, 98, 0);
+}
+
+/* main */
+#main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#break{
+    width: 100%;
+}
+
+/* thanh tìm kiếm và avatar*/
+
+#header{
+    display: flex;
+    width: 1000px;
+    height: 35px;
+    margin: 10px 0px 0px 10px;
+}
+
+#search{
+    background-color: white;
+    width: 85%;
+}
+
+#search-icon{
+    color: #490057;
+    margin: 10px 0px 0px 10px;
+    padding-right: 10px;
+}
+
+#search input{
+    border: none;
+    outline: none;
+    width: 94.5%;
+}
+
+#user{
+    display: flex;
+    margin-left: 15px;
+}
+
+#avatar{
+    margin-left: 15px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+#user-text{
+    color: #490057;
+    font-size: 15px;
+}
+
+/* banner */
+
+#banner{
+    background-image: url(anhnen.jpg);
+    width: 970px;
+    height: 250px;
+    margin: 10px 0px 0px 10px;
+}
+
+#banner-box{
+    margin: 0px 0px 0px 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 130px;
+    height: 30px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#banner-box span{
+    color: #490057;
+}
+
+
