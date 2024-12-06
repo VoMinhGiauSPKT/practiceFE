@@ -14,6 +14,10 @@ span{
     color: white;
 }
 
+label{
+    display: flex;
+}
+
 
 /* điều chỉnh riêng */
 
@@ -21,7 +25,7 @@ span{
 /* thanh điều hướng */
 #sidebar{
     width: 222px;
-    height: 100vh;
+    height: 250vh;
     background-color: #490057;
     flex-direction: column;
 
@@ -120,10 +124,13 @@ span{
     width: 970px;
     height: 250px;
     margin: 10px 0px 0px 10px;
+    position: relative;
 }
 
 #banner-box{
-    margin: 0px 0px 0px 800px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -133,8 +140,192 @@ span{
     border-radius: 10px;
 }
 
+#banner-box:hover{
+    background-color: orange;
+}
+
 #banner-box span{
     color: #490057;
 }
 
+/*phần điền form và avatar lớn*/
 
+#inform{
+    width: 970px;
+    height: 200vh;
+    background-color: white;
+    margin: 10px 0px 0px 10px;
+    position: relative;
+}
+
+
+#inform-avatar-input{
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    height: 200vh;
+    border-right: 2px solid #490057;
+    padding-right: 50px;
+}
+
+#avatar-inform{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 30px;
+}
+
+#inform-avatar-text{
+    color: #490057;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#button-avatar{
+    background-color: #490057;
+    border: none;
+    height: 50px;
+    width: 150px;
+    margin: 24px 0px 0px 24px;
+    border-radius: 15px;
+    color: white;
+    font-size: 16px;
+}
+
+#button-avatar:hover{
+    background-color: orange;
+}
+
+/*khung điền form*/
+
+#form-fill {
+    position: absolute;
+    top: 10px;
+    width: 660px;
+    height: 100vh;
+    margin: 0px 0px 0px 300px;
+    position: relative;
+}
+
+#form-button {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+#button-cancel{
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    background-color: white;
+    color: #490057;
+    border-color: #490057;
+    margin-right: 20px;
+}
+#button-save{
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    background-color: white;
+    color: #490057;
+    border-color: #490057;
+}
+
+#fill-fal {
+    display: flex;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+}
+#first-name {
+    margin-right: 30px;
+}
+
+#input-first {
+    height: 30px;
+    width: 260px;
+    border-radius: 5px;
+}
+
+#input-last{
+    height: 30px;
+    width: 260px;
+    border-radius: 5px;
+}
+
+#tittle{
+    position: absolute;
+    top: 220px;
+    left: 50px;
+}
+
+#input-tittle {
+    height: 30px;
+    width: 559px;
+    border-radius: 5px;
+}
+
+#check-box {
+    position: absolute;
+    top: 350px;
+    left: 50px;
+}
+
+#check-box-2{
+    display: flex;
+}
+
+#check-box h3 {
+    margin-right: 170px;
+}
+
+#birthday {
+    position: absolute;
+    top: 470px;
+    left: 50px;
+}
+
+#input-birthday {
+    height: 30px;
+    width: 260px;
+    border-radius: 5px;
+}
+
+#address {
+    position: absolute;
+    top: 600px;
+    left: 50px;
+}
+
+#input-address {
+    height: 30px;
+    width: 559px;
+    border-radius: 5px;
+}
+
+#email {
+    position: absolute;
+    top: 720px;
+    left: 50px;
+}
+
+#input-email{
+    height: 30px;
+    width: 559px;
+    border-radius: 5px;
+}
+
+#phone {
+    position: absolute;
+    top: 840px;
+    left: 50px;
+}
+
+#input-phone{
+    height: 30px;
+    width: 559px;
+    border-radius: 5px;
+}
