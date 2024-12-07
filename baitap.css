@@ -152,7 +152,7 @@ label{
 
 #inform{
     width: 970px;
-    height: 200vh;
+    height: 194vh;
     background-color: white;
     margin: 10px 0px 0px 10px;
     position: relative;
@@ -163,7 +163,7 @@ label{
     position: absolute;
     top: 30px;
     left: 50px;
-    height: 200vh;
+    height: 187vh;
     border-right: 2px solid #490057;
     padding-right: 50px;
 }
